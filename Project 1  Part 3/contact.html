@@ -23,6 +23,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
@@ -32,9 +35,11 @@
 </header>
 
 <main class="container mt-4">
-    <section id="contact">
+    <section id="contact" class="text-center">
         <h2>Contact Us</h2>
-        <form id="contact-form">
+        <p>We'd love to hear from you! Please fill out the form below or reach us via the contact details provided.</p>
+        
+        <form id="contact-form" class="mt-4">
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" id="name" required>
@@ -50,10 +55,31 @@
             <button type="submit" class="btn btn-primary">Send Message</button>
         </form>
     </section>
+
+    <section id="contact-info" class="mt-5 text-center">
+        <h3>Our Contact Information</h3>
+        <p>Email: <a href="mailto:info@cvsolutions.com">info@cvsolutions.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+        
+        <h4>Our Location</h4>
+        <div class="mt-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.138507797351!2d-122.42301718468144!3d37.774929279759354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808581648f05e9b7%3A0x2d4d82de69f40e77!2sSan%20Francisco%2C%20CA%2094102%2C%20USA!5e0!3m2!1sen!2sin!4v1634734933612!5m2!1sen!2sin" 
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
 </main>
 
 <footer class="text-center mt-4">
     <p>&copy; 2024 CV Solutions. All rights reserved.</p>
+    <div>
+        <a href="privacy.html">Privacy Policy</a> | 
+        <a href="terms.html">Terms of Service</a>
+    </div>
+    <div>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a> | 
+        <a href="https://www.twitter.com" target="_blank">Twitter</a> | 
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+    </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
